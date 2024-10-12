@@ -1,0 +1,115 @@
+body{
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color:#05668d;
+}
+
+nav a:hover {
+    background-color: black;
+    color: whitesmoke;
+    
+}
+
+#content{
+    background-color: rgb(255, 255, 255);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(194, 194, 194)
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+    background-color:rgb(146, 194, 214);
+}
+
+.book {
+    background-color: #98f8ffa9;
+    text-decoration: none;
+    color:#2d3d4b
+}
+
+.join {
+    background-color: blue;
+    color:red;
+}
+
+.book:hover {
+    background-color: rgb(97, 126, 138);
+    color: white;
+}
+
+.join:hover{
+    background-color: rgb(97, 126, 138);
+}
+
+.msg{
+    background-color:#028090;
+}
+
+footer{
+    background-color: rgb(129, 158, 184);
+    color: #466164
+}
+
+.home-title{
+    color:#00a896;
+}
+h4{
+    color: #00a896;
+}
+
+.msg h2{
+    color: #9fc7cc;
+}
+.msg p {
+    color: #9fc7cc;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(22, 44, 54)
+};
+
+footer a:hover{
+    background-color: #000000;
+    color: rgb(114, 210, 255)
+}
+
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+}
+#hero-img{
+    width: 100%;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}  
