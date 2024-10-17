@@ -1,0 +1,26 @@
+body{
+    background-color: azure;
+}
+
+#wrapper{
+    width: 1279px;
+    background-color: rgb(85, 85, 85);
+    display: inline-block;
+}
+
+#background_image{
+    width: 200px;
+}
+
+ul li img{
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgb(59, 59, 59);
+    border-radius: 50%;
+    display: inline;
+}
+
+ul li{
+   display: inline; 
+   margin: 75px;
+}
