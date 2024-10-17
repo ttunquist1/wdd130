@@ -23,18 +23,24 @@ hr{
 
 nav{
     background-color: brown;
+    text-align: center;
+    padding: 20px;
 }
 
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+    font-size: 25px;
+    border: 5px solid rgb(79, 85, 85);
+    margin: 0 5px;
 }
 
 nav a:hover{
     text-decoration: none;
     color: rgb(94, 90, 90);
-    font-size: 20px;
+    
+}
+
+nav:hover{
+    text-align: center;
 }
