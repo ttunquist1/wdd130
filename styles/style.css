@@ -4,7 +4,37 @@ body{
 header{
     background-color: rgb(247, 236, 236);
 }
+
+#title{
+    background-color: rgb(34, 106, 119);
+    color: rgb(255, 255, 255);
+}
+
 #profile{
-    border: solid green;
+    height: 100px;
     width: 100px;
+    border: 5px solid rgb(79, 85, 85);
+    border-radius: 50%;
+}
+hr{
+    background-color:rgb(79, 85, 85);
+    height: 5px;
+}
+
+nav{
+    background-color: brown;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: rgb(94, 90, 90);
+    font-size: 20px;
 }
