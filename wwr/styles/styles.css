@@ -4,12 +4,19 @@ body{
 
 header {
     background-color:#05668d;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 150px;
+    display: block;
 }
 
 nav a:hover {
-    background-color: black;
+    background-color: #012f41;
     color: whitesmoke;
     
+}
+
+.logo{
+    width: 500px;
 }
 
 #content{
@@ -21,16 +28,22 @@ nav a:hover {
 nav a{
     text-align: center;
     text-decoration: none;
-    color: rgb(194, 194, 194)
+    color: rgb(194, 194, 194);
+    margin: 20px;
+    padding: 10px;
 }
 
 #hero-msg h1{
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 55px;
 }
 
 #hero-msg h4{
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 
 .button-box{
     text-align: center;
