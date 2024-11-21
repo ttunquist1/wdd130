@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forums</title>
+</head>
+<body>
+    <form>
+        <label for="fname"> First Name</label>
+        <input type="text" id="fname" name="fname" required>
+        <br><br>
+        <label for="lname"> Last Name</label>
+        <input type="text" id="lname" name="lname" required>
+        <br><br>
+        <label for="email"> Email</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="phone"> Phone <label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        <label >Gender</label>
+        <input type="radio" id="genderM" name="gender" value="Male" required><label for="genderM">M</label>
+        <input type="radio" id="genderF" name="gender" value="Female" required><label for="genderF">F</label>
+        <br><br>
+        <label for="sub">Subscribe to my newsletter</label>
+        <input type="checkbox" id="sub" name="sub">
+        <br><br>
+        <label for="update">Updates</label>
+        <input type="checkbox" id="update" name="update">
+        <br><br>
+        <label for="musicgenre">Music Genre</label>
+        <select id="musicgenre" name="musicgenre">
+            <option value="">--Select Option--</option>
+            <option value="Rock">Rock</option>
+            <option value="Hip">Hip Hop</option>
+            <option value="Rap">Rap</option>
+            <option value="Pop">Pop</option>
+            <option value="Country">Country</option>
+            <option value="Classic">Classic</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit Form</button>
+    </form>
+</body>
+</html>
