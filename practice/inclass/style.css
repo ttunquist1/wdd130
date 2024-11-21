@@ -1,0 +1,41 @@
+body{
+    background-color: #1f1e1e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+form{
+    align-self: center;
+    width: 300px;
+    margin-top: 20px;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border: 3px solid #577780;
+    border-radius: 15px;
+    overflow: hidden;
+    grid-column: 2/3;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+label{
+    color: #577780;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid #1f1e1e;
+}
+
+button{
+    margin-top: 115px;
+    margin-left: 21%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color: rgb(74, 160, 167);
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
