@@ -46,31 +46,51 @@ nav{
 
 #hero-img{
     width:100%;
-    margin-top: -100px;
     z-index: -1;
 }
 
 .home-grid{
-    /* display: grid;
-    grid-template-columns:repeat(10,1fr); */
+    display: grid;
+    grid-template-columns:repeat(9,1fr);
     text-align: center;
 }
 
 .home-grid h2{
-
+    color: #152919;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
 }
 
-.home-grid h3{
-
+.card-img {
+    border: 10px solid #263a09;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #263a09;
+    width: 250px;
+    height: 350px;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
-.home-grid p{
-
+.rivers-card{
+    grid-column: 2 / 4;
+    grid-row:2 / 3;
 }
 
-#background{
-    grid-column: 1 / 11;
-    grid-row: 4 / 9
+.camping-card{
+    grid-column: 6 / 8;
+    grid-row: 2 / 3;
+}
+
+.msg{
+    grid-column: 2/8;
+}
+
+.msg h3{
+    color: #176326;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 nav a:hover {
