@@ -1,0 +1,25 @@
+body{
+    max-width: 1000px;
+    
+}
+
+.loader{
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #353535;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin .95s linear infinite;
+    position: fixed;
+    margin-left: 47%;
+    margin-top: 16%;
+}
+
+.troll{
+    color:white;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
