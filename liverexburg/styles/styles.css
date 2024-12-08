@@ -138,7 +138,7 @@ footer{
 footer a{
     text-decoration: none;
     color: rgb(22, 44, 54)
-};
+}
 
 footer a:hover{
     background-color: #000000;
@@ -164,7 +164,7 @@ footer p a:hover {
     text-align: center;
     margin: 50px;
     justify-content: space-around;
-
+}
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
