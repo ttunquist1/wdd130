@@ -252,5 +252,6 @@ footer p a:hover {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
+    margin: 20px;
   }
   
